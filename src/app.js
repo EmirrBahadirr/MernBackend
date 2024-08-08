@@ -13,7 +13,7 @@ app.use(userRouter); // router bölümünde oluşturduğum user dosyasını uygu
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("benim tatlı çirkin ördek yavrum değil .");
+    res.send("first send benim tatlı çirkin ördek yavrum değil .");
 });
 
 app.listen(PORT, () => {
